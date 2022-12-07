@@ -10,7 +10,7 @@ const forms = (state) => {
         loading: 'Загрузка...',
         success: 'Спасибо! Скоро мы с вами свяжемся',
         failure: 'Что-то пошло не так...'
-    };
+    }
 
     const postData = async (url, data) => {
         document.querySelector('.status').textContent = message.loading;
